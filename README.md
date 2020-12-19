@@ -1,8 +1,8 @@
 # OSSAHUBapp
 
-#Creada con Visual Studio 2010 Ultimate
+# Creada con Visual Studio 2010 Ultimate
 
-#Lenguaje de programación: VB.NET
+# Lenguaje de programación: VB.NET
 
 Con el fin de poder descargar juegos y aplicaciones gratis (crackeadas).
 
