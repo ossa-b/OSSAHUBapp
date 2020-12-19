@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OSSAHUBapp Beta 2-Build 4.exe" version="1.0.0.1" publicKeyToken="6795067e539220f3" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Blocks de notas (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OSSAHUBapp Beta 2-Build 4" version="0.0.2.4" language="neutral" processorArchitecture="x86" />
+    <commandLine file="OSSAHUBapp Beta 2-Build 4.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OSSAHUBapp Beta 2-Build 4.exe" size="6686720">
+      <assemblyIdentity name="OSSAHUBapp Beta 2-Build 4" version="0.0.2.4" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jZ3SMb835FlRhChPx/+IAYv5jYY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Blocks de notas (1).ico" size="230462">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>apl79ayEBXSmQkZ5tZXXC/4JXlM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-P3HMIQG\tomas" issuerKeyHash="6b2d3ceb937c7afbb561e591db51d2ecfea2ee61" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>EoY1H64QsBRSyKlz8ytTdKdHmcs=</DigestValue></Reference></SignedInfo><SignatureValue>hxQvNCoHnFdJGHqFU6CamShokM64va/Xq1DBMrt7MzDwp42ggvUbFtLgp71K0pdDrq24eFySThuJkX3feT9QYPwQuGNJgA/4iTcw0OsmdpVEjyvgrYu4DpAw45E8kHdfoMegBS6637zhlRQsNld+5QlqScz8He7GICGvWeCdWGY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s14RB6wCttEPhJTM5o7RdAzq9Zft568j7gQtMYdMvwkQIC6V/LPAZre5QJEnJ+IF+0+ruaNsghqyBDzSuA1WaPAP2k5JVBgmfnM5+O1N1LRudZFIV0HNmizNtXl3+XRL3BUjUrX9JCGbLRWlSQAV4wDhiIQvVwi//FmbMoZZeRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cb9947a774532bf373a9c85214b010ae1f358612" Description="" Url=""><as:assemblyIdentity name="OSSAHUBapp Beta 2-Build 4.exe" version="1.0.0.1" publicKeyToken="6795067e539220f3" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-P3HMIQG\tomas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>L00Qal8aZcQd0e1ZhPQEUwg/XSM=</DigestValue></Reference></SignedInfo><SignatureValue>SQ37FACYS/dnycsjtx8bUfXrto1uQpraO4iNJOSOlAPfb11JQnEH1N7ZPKkpFMxFMNkbzY7IwD28gmLHkyojMeE1wz4516P3DzSaTx9Ti6dSC/ln9QPi/WsNxcTmE0nK4VlX2Bv+dXaFAgaxleoK4I/NWiiQ9/Wt+7kWCJZW2wQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s14RB6wCttEPhJTM5o7RdAzq9Zft568j7gQtMYdMvwkQIC6V/LPAZre5QJEnJ+IF+0+ruaNsghqyBDzSuA1WaPAP2k5JVBgmfnM5+O1N1LRudZFIV0HNmizNtXl3+XRL3BUjUrX9JCGbLRWlSQAV4wDhiIQvVwi//FmbMoZZeRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRYQQjiklirBDoGu7TOoX3zANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFAAMwBIAE0ASQBRAEcAXAB0AG8AbQBhAHMwHhcNMjAxMDIyMTk1NTM4WhcNMjExMDIzMDE1NTM4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFAAMwBIAE0ASQBRAEcAXAB0AG8AbQBhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALNeEQesArbRD4SUzOaO0XQM6vWX7eevI+4ELTGHTL8JECAulfyzwGa3uUCRJyfiBftPq7mjbIIasgQ80rgNVmjwD9pOSVQYJn5zOfjtTdS0bnWRSFdBzZoszbV5d/l0S9wVI1K1/SQhmy0VpUkAFeMA4YiEL1cIv/xZmzKGWXkVAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAAzQgxEnWERzGYPHkg6xVNgUnT64Ve2S1FYutuOLjrZ3orFIz6x0JvCR90FdBjGTOOxsi8/omrHIswHOGQPy6x1gmape1H3Udc1lIVwi2Jz1XjNnyvvHPPV6SK1yg5ZnTLe8aUIhuv9OtarpqrzF2d4qKI+DE0/1xbZnBpOGk5Z4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
